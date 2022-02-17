@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    position: relative;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    line-height: 1.75;
+    background: #24AE13;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #13380F;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#header-img {
+    width: 7.3rem;
+    margin-left: 25px;
+}
+
+.headline {
+    font-size: 30px;
+    font-style: oblique;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 12rem;
+}
+
+
+#nav-bar ul {
+    display: flex;
+    gap: 3rem;
+    font-size: 25px;
+}
+
+#nav-bar {
+    margin-right: 25px;
+}
+
+li a:hover {
+    color: #24AE13;
+}
+
+li a {
+    color: #ffffff;
+}
+
+
+#video-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+#video {
+    width: 660px;
+    height: 415px;
+}
+
+#contact {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.lessons-pricing-container {
+    display: grid;
+    grid-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 200px;  
+}
+
+.lessons-box {
+    border: 3px solid #ffffff;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.lessons-box h3 {
+    background: #13380F;
+    font-size: 27px;
+}
+
+.lessons-box h4 {
+    font-size: 21px;
+}
+
+.btn {
+    padding: .7rem 2.5rem;
+    margin: 1rem;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #13380F;
+    border: none;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+    line-height: 4rem;
+}
+
+.footer {
+    background: #13380F;
+    text-align: right;
+    padding: 12px;
+}
+
+#email-label {
+    font-size: 18px;
+}
+
+#email {
+    width: 200px;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+    border: none;
+}
+
+#submit {
+    text-align: center;
+    width: 150px;
+    padding: .6rem;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #13380F;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #13380F;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+
+    .headline {
+        font-size: 18px;
+        font-style: oblique;
+        text-decoration: underline;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #header-img {
+        width: 6rem;
+        margin: auto;
+    }
+
+    #nav-bar ul {
+        display: flex;
+        gap: 3rem;
+        font-size: 18px;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+
+    #video {
+        width: 360px;
+        height: 215px;
+    }
+}
