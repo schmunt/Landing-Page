@@ -164,6 +164,11 @@ form {
     cursor: pointer;
 }
 
+.email-text {
+    text-align: center;
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 700px) {
     header {
     display: flex;
@@ -200,5 +205,10 @@ form {
     #video {
         width: 360px;
         height: 215px;
+    }
+
+    .email-text {
+        text-align: center;
+        margin: 0 auto;
     }
 }
